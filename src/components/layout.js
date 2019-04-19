@@ -14,27 +14,29 @@ import "./layout.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
+    query={queryData}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        {/* Title */}
+        <Header siteTitle={"William Su"} />  
+
+        {/* Body */}
         <div
           style={{
             margin: `0 auto`,
             maxWidth: 960,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
+            textAlign: `center`
           }}
         >
-          <main>{children}</main>
+
+
+        {/* Main */}
+        <main>{children}</main>
+
+
+        {/* Footer */}
           <footer>
             © {new Date().getFullYear()}, Built with
             {` `}
@@ -51,3 +53,14 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+const queryData = 
+  graphql`
+        query SiteTitleQuery {
+          site {
+            siteMetadata {
+              title
+            }
+          }
+        }
+      `
