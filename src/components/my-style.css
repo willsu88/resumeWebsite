@@ -1,10 +1,60 @@
 
-
-
 /* Page that contians all the CSS styling of my webpage. */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    /* background-color: rgb(178, 178, 178); */
+    background-color: rgb(230, 229, 221);
+  }
+
 Header {
     text-align: center;
-    padding-bottom: 10;
+    padding-bottom: 0;
+    font-size: 30px;
+}
 
-  }
+.headerWrapper {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+}
   
+
+p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.imageWrapper { 
+    max-width: 220px; 
+    max-height: 220px; 
+    margin: 0 auto !important;
+    width: 80%; /* add wanted width */
+    padding-bottom: 10px;
+    border: 3px solid rgb(97, 97, 97);
+}
+
+
+hr { 
+    height: 2px; 
+    padding-top: 0;
+    margin-left: 36% !important; 
+    margin-right:36% !important;
+    justify-content: left;
+    border-style: solid; 
+    border-color: rgb(97, 97, 97);
+    border-width: 3px 0 0 0; 
+    border-radius: 18px; 
+    padding-bottom: 2px;
+  } 
+
+.bodyWrapper {
+    margin-top: 50px;
+    margin: 0 auto;
+    padding: 0px 1.0875rem 1.45rem;
+    justify-content: center;
+    text-align: center
+}
+
