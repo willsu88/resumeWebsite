@@ -11,7 +11,7 @@ html {
 Header {
     text-align: center;
     padding-bottom: 0;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .headerWrapper {
@@ -28,11 +28,11 @@ Header {
 }
 
 p{
-    font-size: 23px;
+    font-size: 20px;
 }
 
 b {
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .imageWrapper { 
@@ -56,6 +56,8 @@ hr {
     border-color: rgb(80, 80, 80);
     border-width: 3px 0 0 0; 
     border-radius: 18px; 
+    padding-top: 0;
+    margin-top:0;
     padding-bottom: 2px;
   } 
 
@@ -82,7 +84,7 @@ footer {
 }
 
 ul {
-    font-size: 25px;
+    font-size: 23px;
     list-style: none;
     height: 100%; /* 100% Full-height */
     width: 7%; /* 0 width - change this with JavaScript */
@@ -107,17 +109,18 @@ li a:hover {
 /* Social Handle */
 .socialIcon{
     flex: middle;
-    font-size: 38px;
-    padding-left: 12px;
+    font-size: 33px;
+    padding-left: 9px;
+    padding-right: 9px;
     padding-bottom: 20px;
     opacity: 0.85;
 }
 
 .socialIcon:hover{
     flex: middle;
-    font-size: 38px;
+    font-size: 33px;
     padding-left: 12px;
-    padding-bottom: 20px;
+    padding-right: 12px;
     opacity: 1.0;
 }
 

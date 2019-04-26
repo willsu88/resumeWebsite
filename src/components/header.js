@@ -12,7 +12,8 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         
       </h1>
-
+      <hr>  
+		</hr>
       
 
     </div>

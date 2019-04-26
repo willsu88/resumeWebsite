@@ -22,11 +22,7 @@ const Layout = ({ children }) => (
     
 
         {/* Title */}
-        <Header siteTitle={"William Su"} /> 
-
-		{/* Underline */}
-		<hr>  
-		</hr>
+        <Header siteTitle={"William Su"} />
 
     <div class = "socialContainer">
           <SocialHandle/>
