@@ -10,18 +10,26 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import "./my-style.css"
 import Header from "./header"
+import Menu from "../components/menu"
+
 
 const Layout = ({ children }) => (
   <StaticQuery
     query={queryData}
     render={data => (
       <>
+        
+
         {/* Title */}
         <Header siteTitle={"William Su"} /> 
 		 
 		{/* Underline */}
 		<hr>  
 		</hr>
+    
+      {/* <div class ="menuContainer">
+        <Menu/>
+      </div> */}
 
         {/* Body */}
         <div className = "bodyWrapper">

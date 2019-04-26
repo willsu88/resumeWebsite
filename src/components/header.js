@@ -6,9 +6,8 @@ import "./my-style.css"
 const Header = ({ siteTitle }) => (
   
   <header>
-
     <div className = "headerWrapper">
-    
+
       <h1>
           {siteTitle}
         

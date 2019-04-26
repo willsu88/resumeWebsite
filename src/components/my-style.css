@@ -4,8 +4,8 @@ html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    /* background-color: rgb(178, 178, 178); */
-    background-color: rgb(230, 229, 221);
+    background-color: transparent;
+    margin: 0 0px 5% 5%;
   }
 
 Header {
@@ -21,19 +21,30 @@ Header {
     text-align: center;
 }
   
+.container {
 
-p{
-    font-size: 25px;
-    padding-top: 10px;
+    
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align:left;
 }
 
+p{
+    font-size: 23px;
+}
+
+b {
+    font-size: 25px;
+}
+
+
 .imageWrapper { 
-    max-width: 220px; 
-    max-height: 220px; 
-    margin: 0 auto !important;
-    width: 80%; /* add wanted width */
-    padding-bottom: 10px;
-    border: 3px solid rgb(97, 97, 97);
+    max-width: 200px; 
+    max-height: 200px; 
+    width: 100%;
+    height: auto;
+    margin-right: 100px;
+    float: left;
 }
 
 
@@ -53,8 +64,31 @@ hr {
 .bodyWrapper {
     margin-top: 50px;
     margin: 0 auto;
-    padding: 0px 1.0875rem 1.45rem;
+    /* padding: 0px 1.0875rem 1.45rem; */
+    padding: 0px 80px 80px;
     justify-content: center;
     text-align: center
 }
 
+
+/* Menu Component. */
+/* .menuContainer {
+    /* flex: left;
+    margin-left: 5%; */
+/* } */ 
+
+ul {
+    list-style: none;
+}
+
+li a {
+    padding-top: 1%;
+    display: flex;
+    color: rgb(60, 60, 60);
+    text-decoration: underline;
+  }
+  
+/* Change the link color on hover */
+li a:hover {
+    font-weight: bold;
+}
