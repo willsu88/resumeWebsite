@@ -20,12 +20,10 @@ Header {
     padding-bottom: 0px;
     text-align: center;
 }
-  
+/* Use this to change entire screen's margins. */
 .container {
-
-    
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 8%;
+    margin-left: 8%;
     text-align:left;
 }
 
@@ -37,7 +35,6 @@ b {
     font-size: 25px;
 }
 
-
 .imageWrapper { 
     max-width: 200px; 
     max-height: 200px; 
@@ -47,15 +44,16 @@ b {
     float: left;
 }
 
+.link {
+    color: rgb(21, 103, 151);
+    text-decoration: none;
+}
 
 hr { 
-    height: 2px; 
-    padding-top: 0;
     margin-left: 36% !important; 
     margin-right:36% !important;
     justify-content: left;
-    border-style: solid; 
-    border-color: rgb(97, 97, 97);
+    border-color: rgb(80, 80, 80);
     border-width: 3px 0 0 0; 
     border-radius: 18px; 
     padding-bottom: 2px;
@@ -64,7 +62,6 @@ hr {
 .bodyWrapper {
     margin-top: 50px;
     margin: 0 auto;
-    /* padding: 0px 1.0875rem 1.45rem; */
     padding: 0px 80px 80px;
     justify-content: center;
     text-align: center
@@ -72,13 +69,27 @@ hr {
 
 
 /* Menu Component. */
-/* .menuContainer {
-    /* flex: left;
-    margin-left: 5%; */
-/* } */ 
+.menuContainer {
+    flex: left;
+    margin-left: 5%;
+} 
+
+footer {
+    font-size: 18px;
+    margin-right: 8%;
+    margin-left: 8%;
+    text-align:left;
+}
 
 ul {
+    font-size: 25px;
     list-style: none;
+    height: 100%; /* 100% Full-height */
+    width: 7%; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 22%; /* Stay at the top */
+    left: 2%;
 }
 
 li a {
@@ -91,4 +102,27 @@ li a {
 /* Change the link color on hover */
 li a:hover {
     font-weight: bold;
+}
+
+/* Social Handle */
+.socialIcon{
+    flex: middle;
+    font-size: 40px;
+    padding-left: 12px;
+    padding-bottom: 20px;
+    opacity: 0.85;
+    
+}
+.socialIcon:hover{
+    flex: middle;
+    font-size: 40px;
+    padding-left: 12px;
+    padding-bottom: 20px;
+    opacity: 1.0;
+}
+
+.socialContainer {
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
 }

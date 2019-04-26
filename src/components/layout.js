@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import "./my-style.css"
 import Header from "./header"
 import Menu from "../components/menu"
+import SocialHandle from "../components/socialhandle"
 
 
 const Layout = ({ children }) => (
@@ -18,19 +19,24 @@ const Layout = ({ children }) => (
     query={queryData}
     render={data => (
       <>
-        
+    
 
         {/* Title */}
         <Header siteTitle={"William Su"} /> 
-		 
+
 		{/* Underline */}
 		<hr>  
 		</hr>
-    
-      {/* <div class ="menuContainer">
-        <Menu/>
-      </div> */}
 
+    <div class = "socialContainer">
+          <SocialHandle/>
+        </div>
+  
+   
+      <div class ="menuContainer">
+        <Menu/>
+      </div>
+      
         {/* Body */}
         <div className = "bodyWrapper">
 
@@ -39,13 +45,9 @@ const Layout = ({ children }) => (
 			{/* Main */}
 			<main>{children}</main>
 
-
-        {/* Footer */}
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
+        <footer>
+          Updated: 5/1/2019
+        </footer>
         </div>
       </>
     )}

@@ -6,9 +6,9 @@ const Menu = () =>
     (
        
 
-        <ul> 
-            <li><Link to="/">About Me</Link></li>
-            <li><Link to="/page-2/">My Work</Link></li>
+        <ul class = "menuUL"> 
+            <li><Link to="/">My Work</Link></li>
+            <li><Link to="/page-2/">About Me</Link></li>
             
         </ul>
         

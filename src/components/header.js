@@ -12,7 +12,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         
       </h1>
+
       
+
     </div>
   </header>
 )
