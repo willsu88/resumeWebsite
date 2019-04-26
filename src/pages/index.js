@@ -14,7 +14,7 @@ const IndexPage = () => (
 
    
     {/* SEO shows the name on the browser tab. */}
-    <SEO title="William Su" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="William Su" keywords={[`William Su`, `Will Su`, `resume`, 'tech', 'jobs', 'intern']} />
     
     <div class ="container">
       
