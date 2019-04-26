@@ -10,18 +10,15 @@ const IndexPage = () => (
   /* Header is taken care of in layout page. */
   <Layout>
     
-    
-
-   
     {/* SEO shows the name on the browser tab. */}
     <SEO title="William Su" keywords={[`William Su`, `Will Su`, `resume`, 'tech', 'jobs', 'intern']} />
     
     <div class ="container">
-      
-      <div class = "imageWrapper">
-          <Image />
-        </div>
-        
+        <div class = "imageWrapper">
+            <Image />
+          </div>
+
+      <div class = "smallScreen"> 
         <b>Hi, I'm Will Su!  
         </b>
 
@@ -31,7 +28,7 @@ const IndexPage = () => (
           I will be graduating with both the B.A. in Computer Science and Masters of Computer Science
           in 2021. From kindergarten to highschool, I studied at an international school in Shanghai, China.
         </p>
-    
+       </div>
     </div>
 
     <div class ="container">

@@ -11,9 +11,7 @@ import Menu from "../components/menu"
 const IndexPage = () => (
   /* Header is taken care of in layout page. */
   <Layout>
-    
-
-   
+  
     {/* SEO shows the name on the browser tab. */}
     <SEO title="William Su" keywords={[`gatsby`, `application`, `react`]} />
     
@@ -22,17 +20,17 @@ const IndexPage = () => (
       <div class = "imageWrapper">
           <Image />
         </div>
-        
-        <b>Hi, I'm Will Su!  
-        </b>
+        <div class = "smallScreen"> 
+          <b>Hi, I'm Will Su!  
+          </b>
 
-        <p>
-          <br></br>
-          I am currently a rising junior at Rice University (Houston, Texas). 
-          I will be graduating with both the B.A. in Computer Science and Masters of Computer Science
-          in 2021. From kindergarten to highschool, I studied at an international school in Shanghai, China.
-        </p>
-    
+          <p>
+            <br></br>
+            I am currently a rising junior at Rice University (Houston, Texas). 
+            I will be graduating with both the B.A. in Computer Science and Masters of Computer Science
+            in 2021. From kindergarten to highschool, I studied at an international school in Shanghai, China.
+          </p>
+        </div>
     </div>
 
     <div class ="container">

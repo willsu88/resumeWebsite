@@ -5,13 +5,13 @@ import "../components/my-style.css"
 const Menu = () => 
     (
        
-
-        <ul class = "menuUL"> 
-            <li><Link to="/">Work</Link></li>
-            <li><Link to="/page-2/">About</Link></li>
-            
-        </ul>
-        
+        <div class = "menuContainer"> 
+            <ul> 
+                <li><Link to="/">Work</Link></li>
+                <li><Link to="/page-2/">About</Link></li>
+                
+            </ul>
+        </div>
     )
 
 

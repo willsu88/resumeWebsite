@@ -19,20 +19,18 @@ const Layout = ({ children }) => (
     query={queryData}
     render={data => (
       <>
-    
-
+       
+        <Menu/>
+      
+        
         {/* Title */}
         <Header siteTitle={"William Su"} />
 
     <div class = "socialContainer">
           <SocialHandle/>
-        </div>
+    </div>
   
-   
-      <div class ="menuContainer">
-        <Menu/>
-      </div>
-      
+
         {/* Body */}
         <div className = "bodyWrapper">
 
