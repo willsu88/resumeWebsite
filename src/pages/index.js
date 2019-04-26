@@ -30,11 +30,6 @@ const IndexPage = () => (
           I am currently a rising junior at Rice University (Houston, Texas). 
           I will be graduating with both the B.A. in Computer Science and Masters of Computer Science
           in 2021. From kindergarten to highschool, I studied at an international school in Shanghai, China.
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
         </p>
     
     </div>
@@ -49,7 +44,6 @@ const IndexPage = () => (
             This project challenged me as it was the first time I worked on a software project with a team, 
             but I did learn a lot about product management and development on the way!
             Checkout the Github repo <a href ="https://github.com/rice-apps/RiceDeliveryVendorFrontEnd" class = "link" target ="blank">here</a>.
-
           </p>
 
           <p>
@@ -66,8 +60,7 @@ const IndexPage = () => (
             
           </p>
 
-    </div>
-    <div class ="container">
+          <br></br>
           <b> Work </b>
           <p>
             This summer I will be working at <a href ="https://www.experoinc.com/" class = "link" target ="blank">Expero</a> 
@@ -96,10 +89,7 @@ const IndexPage = () => (
             Physics, Algebra, Chemistry, and Writing.
     
           </p>
-
     </div>
-
-
 
   </Layout>
   /* Footer is taken care of in layout page. */

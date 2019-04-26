@@ -7,8 +7,8 @@ const Menu = () =>
        
 
         <ul class = "menuUL"> 
-            <li><Link to="/">My Work</Link></li>
-            <li><Link to="/page-2/">About Me</Link></li>
+            <li><Link to="/">Work</Link></li>
+            <li><Link to="/page-2/">About</Link></li>
             
         </ul>
         

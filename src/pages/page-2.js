@@ -31,11 +31,6 @@ const IndexPage = () => (
           I am currently a rising junior at Rice University (Houston, Texas). 
           I will be graduating with both the B.A. in Computer Science and Masters of Computer Science
           in 2021. From kindergarten to highschool, I studied at an international school in Shanghai, China.
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
         </p>
     
     </div>
@@ -66,6 +61,7 @@ const IndexPage = () => (
               
              
           </p>
+          <br></br>
 
           <b> Interests </b>
           <p>

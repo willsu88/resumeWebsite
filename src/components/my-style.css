@@ -8,10 +8,8 @@ html {
     margin: 0 0px 5% 5%;
   }
 
-Header {
-    text-align: center;
-    padding-bottom: 0;
-    font-size: 28px;
+h1 {
+    font-size: 45px;
 }
 
 .headerWrapper {
@@ -24,6 +22,7 @@ Header {
 .container {
     margin-right: 8%;
     margin-left: 8%;
+    padding-bottom: 6.2%;
     text-align:left;
 }
 
@@ -34,6 +33,8 @@ p{
 b {
     font-size: 23px;
 }
+
+
 
 .imageWrapper { 
     max-width: 200px; 
@@ -91,11 +92,11 @@ ul {
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 22%; /* Stay at the top */
-    left: 2%;
+    left: 5%;
 }
 
 li a {
-    padding-top: 1%;
+    padding-top: 5%;
     display: flex;
     color: rgb(60, 60, 60);
     text-decoration: underline;
@@ -133,3 +134,69 @@ li a:hover {
 a {
     color: rgb(60, 60, 60);
 }
+
+
+/* For small screens */
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 30px;
+    }
+    
+    
+    p {
+       font-size: 16px;
+     }
+ 
+     b {
+         font-size: 20px;
+     }
+ 
+     .socialIcon{
+         flex: middle;
+         font-size: 25px;
+         padding-left: 6px;
+         padding-right: 6px;
+         padding-bottom: 5px;
+         opacity: 0.85;
+     }
+     
+     .socialIcon:hover{
+         flex: middle;
+         font-size: 25px;
+         padding-left: 6px;
+         padding-right: 6px;
+         padding-bottom: 5px;
+         opacity: 1.0;
+     }
+     
+    footer {
+        font-size: 14px;
+        margin-right: 8%;
+        margin-left: 8%;
+        text-align:left;
+    }
+
+    ul {
+        font-size: 20px;
+        list-style: none;
+        text-align: center;
+        height: 100%; /* 100% Full-height */
+        width: 7%; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 22%; /* Stay at the top */
+        left: 2%;
+    }
+
+    .container {
+        margin-right: 8%;
+        margin-left: 8%;
+        padding-bottom: 0px;
+        text-align:left;
+    }
+    
+    
+ 
+ }
+ 
