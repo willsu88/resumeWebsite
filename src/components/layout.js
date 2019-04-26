@@ -46,6 +46,9 @@ const Layout = ({ children }) => (
 			<main>{children}</main>
 
         <footer>
+          Email: William.Su@rice.edu 
+          <br>
+        </br>
           Updated: 5/1/2019
         </footer>
         </div>

@@ -107,15 +107,15 @@ li a:hover {
 /* Social Handle */
 .socialIcon{
     flex: middle;
-    font-size: 40px;
+    font-size: 38px;
     padding-left: 12px;
     padding-bottom: 20px;
     opacity: 0.85;
-    
 }
+
 .socialIcon:hover{
     flex: middle;
-    font-size: 40px;
+    font-size: 38px;
     padding-left: 12px;
     padding-bottom: 20px;
     opacity: 1.0;
@@ -125,4 +125,8 @@ li a:hover {
     text-align: center;
     justify-content: space-evenly;
     display: flex;
+}
+
+a {
+    color: rgb(60, 60, 60);
 }
