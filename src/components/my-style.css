@@ -4,7 +4,7 @@ html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    background-color: transparent;
+    background-color: rgb(230, 230, 230);
     margin: 0 0px 5% 5%;
   }
 
@@ -133,14 +133,17 @@ a {
     color: rgb(60, 60, 60);
 }
 
+.paddingFromImage {
+    padding-top: 25px;
+}
 
 /* For small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
     html {
         font-family: sans-serif;
         -ms-text-size-adjust: 100%;
         -webkit-text-size-adjust: 100%;
-        background-color: transparent;
+        background-color: rgb(230, 230, 230);
         margin: 0 0px 0% 0%;
       }
 
@@ -200,7 +203,7 @@ a {
         position: fixed;
         z-index: 9999;
         width: 100%;
-        height: 40px;
+        height: 4.5%;
         background-color: #0bbea4;
         overflow: hidden;
         margin-left: 0;
@@ -212,14 +215,14 @@ a {
         list-style: none;
         height: 100%; 
         width: 20%; 
-        position: fixed; /* Stay in place */
+        /* position: fixed; Stay in place */
         z-index: 9999; /* Stay on top */
         top: 0%; /* Stay at the top */
         left: 4%;
         text-align: left;
         justify-content: space-evenly;
         display: flex;
-        padding-top: 2%;
+        padding-top: 0.8%;
     }
     
     li a {
@@ -245,8 +248,9 @@ a {
         max-height: 150px; 
         width: 100%;
         height: auto;
-        float:center;
+        float: center;
         padding-bottom: 25px;
+        justify-content:center;
         /* float: left; */
     }
     
@@ -257,5 +261,27 @@ a {
     
  
  }
+
+
+ /* For small screens */
+@media screen and (max-width: 500px) {
+    
+    .imageWrapper { 
+        padding-top: 8px;
+        max-width: 150px; 
+        max-height: 150px; 
+        width: 100%;
+        height: auto;
+        float: center;
+        padding-bottom: 25px;
+        justify-content:center;
+        margin-left: 28%;
+        margin-right: 25%;
+    }
+
+    .smallScreen {
+        padding-top: 170px;
+     }
+     
  
- 
+}

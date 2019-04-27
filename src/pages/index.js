@@ -14,9 +14,11 @@ const IndexPage = () => (
     <SEO title="William Su" keywords={[`William Su`, `Will Su`, `resume`, 'tech', 'jobs', 'intern']} />
     
     <div class ="container">
+      <div class = "centerImage">
         <div class = "imageWrapper">
             <Image />
           </div>
+      </div>
 
       <div class = "smallScreen"> 
         <b>Hi, I'm Will Su!  
@@ -32,10 +34,11 @@ const IndexPage = () => (
     </div>
 
     <div class ="container">
+        <div class = "paddingFromImage">
           <b> Projects </b>
           <p>
-            1. &nbsp;  Hedwig - a team of 7, under the <a href ="https://riceapps.org/" class = "link" target ="blank">RiceApps</a> organization,
-            that is building an iOS delivery app exclusively for vendors on the Rice Campus.<br></br>
+            Hedwig - a team of 7, under the <a href ="https://riceapps.org/" class = "link" target ="blank">RiceApps</a> organization,
+            that is building an iOS delivery app exclusively for vendors on the Rice Campus.
             Currently, the app has gone through a beta launch and will be ready for an official launch in Fall 2019.
             My main contribution is building the Vendor-side app, using technologies such as React Native, GraphQL, and Stripe. 
             This project challenged me as it was the first time I worked on a software project with a team, 
@@ -44,7 +47,7 @@ const IndexPage = () => (
           </p>
 
           <p>
-            2. &nbsp; Goodreads Book Recommender - a machine learning project I collaborated with Jay Shi (Rice '21) that implemented 4
+            Goodreads Book Recommender - a machine learning project I collaborated with Jay Shi (Rice '21) that implemented 4
             different recommender systems to suggest books to Goodreads users based on their previous readings' ratings. The models
             we trained included <br></br>
             &nbsp;    &nbsp;   &nbsp;   1. User-user similarity <br></br>
@@ -56,26 +59,21 @@ const IndexPage = () => (
             <a href ="https://github.com/willsu88/GoodreadsProject" class = "link" target ="blank"> visualizations</a> and Jupyter notebooks!
             
           </p>
-
+        </div>
           <br></br>
           <b> Work </b>
           <p>
             This summer I will be working at <a href ="https://www.experoinc.com/" class = "link" target ="blank">Expero</a> 
             , a tech consulting firm based in Houston, Teaxs, as a Software Engineering Intern from May to July 2019. 
             <br></br>
-
             <br></br>
             Last summer in Shanghai, China, I worked at <a href ="https://www.lamresearch.com/" class = "link" target ="blank">Lam Research</a> as a Data Science
             Intern (July 2018 to August 2018). 
             This was my first exposure to data wrangling and cleaning - the "dirty work" beneath Data Science. 
-            My tasks primarily focused on <br></br>
-            &nbsp;       1. automating the data collection process through Python  <br></br>
-            &nbsp;       2. managing <a href ="https://www.lamresearch.com/" class = "link" target ="blank"> CSBG </a> department's data on a local database on mySQL <br></br>
-            &nbsp;       3. outputting data visualizations for bi-weekly meetings through <a href ="https://www.qlik.com/us/products/qlik-sense" class = "link" target ="blank">
+            My tasks primarily focused on managing data on a local mySQL database and outputting visualizations for bi-weekly meetings 
+            through <a href ="https://www.qlik.com/us/products/qlik-sense" class = "link" target ="blank">
             Qliksense </a> and 
             Matplotlib.
-             
-            
             <br></br>
             <br></br>
             Currently, I am also working part-time as an Operations Assistant at the Barbara and David Gibbs 
