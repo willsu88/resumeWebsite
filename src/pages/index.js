@@ -34,7 +34,7 @@ const IndexPage = () => (
     </div>
 
     <div class ="container">
-        <div class = "paddingFromImage">
+    
           <b> Projects </b>
           <p>
             Hedwig - a team of 7, under the <a href ="https://riceapps.org/" class = "link" target ="blank">RiceApps</a> organization,
@@ -59,7 +59,7 @@ const IndexPage = () => (
             <a href ="https://github.com/willsu88/GoodreadsProject" class = "link" target ="blank"> visualizations</a> and Jupyter notebooks!
             
           </p>
-        </div>
+
           <br></br>
           <b> Work </b>
           <p>
